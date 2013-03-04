@@ -6,5 +6,21 @@
  * Time: 14:26
  * To change this template use File | Settings | File Templates.
  */
-echo "test";
-echo "test2";
+class Panier {
+    // Eléments de notre panier
+    var $items;
+
+    public function setItems($items)
+    {
+        $this->items = $items;
+    }
+
+    public function getItems()
+    {
+        return $this->items;
+    }
+
+
+
+
+}
