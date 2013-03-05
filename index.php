@@ -8,4 +8,4 @@
  */
 echo "test";
 echo "oki";
-echo "oki from git"
+echo "oki from git";
